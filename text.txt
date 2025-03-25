@@ -1,1 +1,4 @@
 cds compile db/Shopping -2 sql  = To Compile DB folder Shopping file  and it will show SQL Ctreate Table structure 
+cds watch/cds w
+cds add records --5 = To Add dummy data with 5 records
+cds add http - Just Like a postmantool

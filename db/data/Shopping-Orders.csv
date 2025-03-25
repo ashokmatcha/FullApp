@@ -1,0 +1,6 @@
+customer_ID,status,createdAt,createdBy,modifiedAt,modifiedBy
+49941818-be06-4bc6-8fa4-cf531564550c,Delivered,2020-05-28T00:00:00.000Z,createdBy.7l1h5@example.com,2000-11-15T00:00:00.000Z,modifiedBy.7l1h5@example.com
+49941818-be06-4bc6-8fa4-cf531564550c,Shipped,2019-11-12T00:00:00.000Z,createdBy.7l1h6@example.org,2010-04-28T00:00:00.000Z,modifiedBy.7l1h6@example.net
+49941818-be06-4bc6-8fa4-cf531564550c,Shipped,2008-07-07T00:00:00.000Z,createdBy.7l1h7@example.org,2010-05-18T00:00:00.000Z,modifiedBy.7l1h7@example.com
+49941818-be06-4bc6-8fa4-cf531564550c,Shipped,2016-03-03T00:00:00.000Z,createdBy.7l1h8@example.net,2004-11-05T00:00:00.000Z,modifiedBy.7l1h8@example.org
+49941818-be06-4bc6-8fa4-cf531564550c,Delivered,2002-09-04T00:00:00.000Z,createdBy.7l1h9@example.com,2011-01-04T00:00:00.000Z,modifiedBy.7l1h9@example.net

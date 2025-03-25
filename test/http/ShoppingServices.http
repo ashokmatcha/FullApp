@@ -1,0 +1,146 @@
+@server = http://localhost:4004
+@auth = Authorization: Basic alice:
+
+
+### Customers
+# @name Customers_GET
+GET {{server}}/odata/v4/shopping-services/Customers
+{{auth}}
+
+
+### Customers
+# @name Customers_POST
+POST {{server}}/odata/v4/shopping-services/Customers
+Content-Type: application/json
+{{auth}}
+
+{
+  "name": "Manoj",
+  "email": "Manoj.bn@gmail.com",
+  "phone": "1234567890",
+  "address": "Mysore"
+}
+
+
+### Customers
+# @name Customers_PATCH
+PATCH {{server}}/odata/v4/shopping-services/Customers/757443ee-af12-447a-a797-8e3ada4fad53
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": "757443ee-af12-447a-a797-8e3ada4fad53",
+  "name": "name-757443",
+  "email": "%+-]+@[\\\\w.-]+\\\\.[a-zA-Z]{2,}$",
+  "phone": " ^\\\\d{10}$",
+  "address": "address-757443"
+}
+
+
+### Customers
+# @name Customers_DELETE
+DELETE {{server}}/odata/v4/shopping-services/Customers/757443ee-af12-447a-a797-8e3ada4fad53
+Content-Type: application/json
+{{auth}}
+
+
+### Orders
+# @name Orders_GET
+GET {{server}}/odata/v4/shopping-services/Orders
+{{auth}}
+
+
+### Orders
+# @name Orders_POST
+POST {{server}}/odata/v4/shopping-services/Orders
+Content-Type: application/json
+{{auth}}
+
+{
+  "customer": {
+    "ID": "757443ee-af12-447a-a797-8e3ada4fad53"
+  },
+  "status": "Pending",
+  "createdAt": "2002-11-22T00:00:00.000Z",
+  "createdBy": "createdBy.73nhy@example.org",
+  "modifiedAt": "2006-11-28T00:00:00.000Z",
+  "modifiedBy": "modifiedBy.73nhy@example.com"
+}
+
+
+### Orders
+# @name Orders_PATCH
+PATCH {{server}}/odata/v4/shopping-services/Orders/undefined
+Content-Type: application/json
+{{auth}}
+
+{
+  "customer": {
+    "ID": "757443ee-af12-447a-a797-8e3ada4fad53"
+  },
+  "status": "Pending",
+  "createdAt": "2002-11-22T00:00:00.000Z",
+  "createdBy": "createdBy.73nhy@example.org",
+  "modifiedAt": "2006-11-28T00:00:00.000Z",
+  "modifiedBy": "modifiedBy.73nhy@example.com"
+}
+
+
+### Orders
+# @name Orders_DELETE
+DELETE {{server}}/odata/v4/shopping-services/Orders/undefined
+Content-Type: application/json
+{{auth}}
+
+
+### OrderItems
+# @name OrderItems_GET
+GET {{server}}/odata/v4/shopping-services/OrderItems
+{{auth}}
+
+
+### OrderItems
+# @name OrderItems_POST
+POST {{server}}/odata/v4/shopping-services/OrderItems
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": "29382089-6c99-4b81-98cc-24ea2cf4bce7",
+  "order": {},
+  "product": "product-293820",
+  "quantity": 32,
+  "price": {
+    "code": "201"
+  }
+}
+
+
+### OrderItems
+# @name OrderItems_PATCH
+PATCH {{server}}/odata/v4/shopping-services/OrderItems/29382089-6c99-4b81-98cc-24ea2cf4bce7
+Content-Type: application/json
+{{auth}}
+
+{
+  "ID": "29382089-6c99-4b81-98cc-24ea2cf4bce7",
+  "order": {},
+  "product": "product-293820",
+  "quantity": 32,
+  "price": {
+    "code": "201"
+  }
+}
+
+
+### OrderItems
+# @name OrderItems_DELETE
+DELETE {{server}}/odata/v4/shopping-services/OrderItems/29382089-6c99-4b81-98cc-24ea2cf4bce7
+Content-Type: application/json
+{{auth}}
+
+
+### Currencies
+# @name Currencies_GET
+GET {{server}}/odata/v4/shopping-services/Currencies
+{{auth}}

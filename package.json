@@ -21,7 +21,7 @@
   },
   "cds": {
     "requires": {
-      "auth": "xsuaa",
+      "auth": "mocked",
       "html5-repo": true
     },
     "sql": {
