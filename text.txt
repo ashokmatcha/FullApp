@@ -2,3 +2,9 @@ cds compile db/Shopping -2 sql  = To Compile DB folder Shopping file  and it wil
 cds watch/cds w
 cds add records --5 = To Add dummy data with 5 records
 cds add http - Just Like a postmantool
+
+V2 - Metadata
+V4-Annotations
+V4-Batch,Filter,Search ,count ,Top and Skip operations prebuild/in build
+V2-We have to write 
+
