@@ -1,0 +1,1 @@
+cds compile db/Shopping -2 sql  = To Compile DB folder Shopping file  and it will show SQL Ctreate Table structure 
