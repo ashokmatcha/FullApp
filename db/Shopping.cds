@@ -1,13 +1,14 @@
 namespace Shopping;
-using { cuid, managed ,Currency} from '@sap/cds/common';
+using { cuid, managed ,Currency,Country} from '@sap/cds/common';
 
 
 entity Customers : cuid  {
 
     name     : Name;
     email    : String(30) @assert.format : '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'; 
-    phone    : String(10) @assert.format : '';
+    phone    : String(10);
     address  : String;
+    Country : Country;
    // orders   : Composition of many Orders on orders.customer = $self;
 }
 

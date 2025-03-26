@@ -1,10 +1,13 @@
-cds compile db/Shopping -2 sql  = To Compile DB folder Shopping file  and it will show SQL Ctreate Table structure 
+  = To Compile DB folder Shopping file  and it will show SQL Ctreate Table structure 
 cds watch/cds w
-cds add records --5 = To Add dummy data with 5 records
+cds add data --records 2= To Add dummy data with 2 records
 cds add http - Just Like a postmantool
 
-V2 - Metadata
-V4-Annotations
+V2 - Metadata  - JSON and XML format
+V4-Annotations - JOSN format
 V4-Batch,Filter,Search ,count ,Top and Skip operations prebuild/in build
 V2-We have to write 
+
+V2 = datetime
+v4 = date
 

@@ -1,6 +1,3 @@
-ID,name,email,phone,address
-49941773-4a6b-4988-91d7-12ed01e6e48f,name-4994177,"%+-]+@[\\w.-]+\\.[a-zA-Z]{2,}$", ^\\d{10}$,address-4994177
-49941782-6007-454a-a15a-34823214f50f,name-4994178,"%+-]+@[\\w.-]+\\.[a-zA-Z]{2,}$", ^\\d{10}$,address-4994178
-49941794-4d92-4355-a73e-eee53402e05e,name-4994179,"%+-]+@[\\w.-]+\\.[a-zA-Z]{2,}$", ^\\d{10}$,address-4994179
-49941804-76ff-4261-9ab3-8941e92df93d,name-4994180,"%+-]+@[\\w.-]+\\.[a-zA-Z]{2,}$", ^\\d{10}$,address-4994180
-49941818-be06-4bc6-8fa4-cf531564550c,name-4994181,"%+-]+@[\\w.-]+\\.[a-zA-Z]{2,}$", ^\\d{10}$,address-4994181
+ID,name,email,phone,address,Country_code
+29080218-68c8-4828-b2a8-aeebfa5e848b,Ashok,ashokabm92@gmail.com,9704377293,Andhra pradesh,IN
+29080222-042d-4eea-bfd8-858ee6d04677,name-2908022,"@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$",ne-2908022,address-2908022,282
